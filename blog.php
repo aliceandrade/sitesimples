@@ -1,6 +1,6 @@
 <?php $titulo = 'Notícias'; include 'header.php' ?>
 
-<h2>Noticias</h2>
+<h2>Ultimas Noticias</h2>
 
 <?php $resultado = pegaPosts(10); ?>
 <?php while ($linha = mysql_fetch_array($resultado)): ?>
